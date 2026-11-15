@@ -1,13 +1,13 @@
 cask "livedrift" do
-  version "0.2.0"
+  version "0.2.1"
 
   on_arm do
-    sha256 "c543c9be3b9519bc6633fbc49df4bc9df458784a531431c20eb8e138e6e37e09"
+    sha256 "8ec8574de6b6bc47e7edc0266e1bc31a45050ec10abb9323558cd06c14fd8fd6"
 
     url "https://github.com/lolgab/livedrift/releases/download/v#{version}/LiveDrift-#{version}-macos-arm64.zip"
   end
   on_intel do
-    sha256 "effb98c91bf86a7cacc5e400f724db2525aadc9b2f64152bf5fbabfb7645be81"
+    sha256 "ddba9511b59c8cdbf1da526bdb124bcd98d2e409d995bf8c906ddf965fb960d9"
 
     url "https://github.com/lolgab/livedrift/releases/download/v#{version}/LiveDrift-#{version}-macos-x86_64.zip"
   end
